@@ -37,7 +37,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}' # For deployment status checks
-          firebaseServiceAccount: '' # Not needed when using FIREBASE_TOKEN
           channelId: live # Deploy to the production channel
           projectId: firestatsfrontend # !!! REPLACE THIS !!!
         env:
