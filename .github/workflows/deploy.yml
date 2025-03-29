@@ -34,7 +34,7 @@ jobs:
 
       # 5. Deploy to Firebase Hosting
       - name: Deploy to Firebase Hosting
-        uses: FirebaseExtended/action-hosting-deploy@v0
+        uses: FirebaseExtended/action-hosting-deploy@main
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}' # For deployment status checks
           channelId: live # Deploy to the production channel
