@@ -13,10 +13,10 @@ const About = () => {
         </div>
         <div className="w-1/2 flex flex-col space-y-4">
             <div className="w-full h-60 flex items-center justify-center">
-                <img src="images/giannis2.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
+                <img src="/images/giannis2.jpg" alt="Image 1" className="w-full h-full object-cover rounded-md" />
             </div>
             <div className="w-full h-60 flex items-center justify-center">
-                <img src="images/giannis.jpg" alt="Image 2" className="w-full h-full object-cover rounded-md" />
+                <img src="/images/giannis.jpg" alt="Image 2" className="w-full h-full object-cover rounded-md" />
             </div>
         </div>
     </div>
